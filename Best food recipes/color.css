@@ -1,0 +1,327 @@
+body
+{
+    font-family: Serif,sans-serif,'Times New Roman';
+    font-size: 16px;
+    color:dimgrey;
+    max-width: 100%;
+}
+nav
+{
+    height:100px;
+    background-color: rgba(255, 165, 0, 0.7);
+    margin-top:30px;
+}
+nav img
+{
+    display:inline-block;
+    float:left;
+    margin-left:3%;
+    height:140px;
+    margin-top: -20px;
+    border:2px solid black;
+}
+nav ul
+{
+    width: 20rem;
+    height:1.6rem;
+    display: inline-flex;
+    position: relative;
+    left:60%;
+    margin-top:1%;
+}
+nav ul>li
+{
+ list-style: none;
+    flex-direction: row;
+    flex:3 1 150px;
+}
+nav ul>li a
+{
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color:dimgrey;
+    font-weight: lighter;
+}
+nav ul>li a:hover
+{
+    color:lightyellow;
+}
+main
+{
+    margin-top:30px;
+    height: 500px;
+}
+#Home1
+{
+    width: 500px;
+    display: inline-block;
+    float:left;
+    margin-left:15%;
+    margin-top:40px;
+    line-height: 25px;
+}
+#pic1
+{
+    display: inline-block;
+    float:right;
+    width: 600px;
+    height:400px;
+    margin-top:40px;
+    margin-right:10%;
+}
+footer
+{
+    width: inherit;
+    height:10rem;
+    background-color: rgba(255, 165, 0, 0.7);
+}
+footer p
+{
+    text-align: center;
+    margin-top:30px;
+    font-size: 30px;
+    color:white;
+}
+footer ul
+{
+    margin-left:34%;
+    margin-top: 10px;
+    width: 1000px;
+    height:60px;
+}
+footer ul>li
+{
+    list-style: none;
+    display: inline-grid;
+    grid-template-columns: 50px 50px 50px;
+}
+footer #f
+{
+    content-visibility: hidden;
+    background: url("./images/facebook.png") no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+footer #i
+{
+    content-visibility: hidden;
+    background: url("./images/instagram.png") no-repeat;
+    width: 50px;
+    height: 52px;
+    background-size: contain;
+}
+footer #t
+{
+    content-visibility: hidden;
+    background: url("./images/twitter.png") no-repeat;
+    width: 50px;
+    height: 52px;
+    background-size: cover;
+}
+footer #y
+{
+    content-visibility: hidden;
+    background: url("./images/youtube.png") no-repeat;
+    width: 50px;
+    height: 52px;
+    background-size: contain;
+}
+#nav1
+{
+    display:inline-grid;
+    position:relative;
+    top:-10px;
+    width: 97.9%;
+    height:60px;
+    list-style: none;
+    background-color: lightslategrey;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px;
+    column-gap: 150px;
+
+}
+#nav1>li
+{
+    width: 200px;
+    height:inherit;
+    align-content:end;
+    margin-left:235px;
+    margin-top:20px;
+}
+
+#nav1>li a
+{
+
+    color:var(--nav-li-color);
+    --nav-li-color:white;
+    font-size: 20px;
+}
+#nav1>li a:hover
+{
+    text-decoration:none;
+}
+.title
+{
+    position: relative;
+    left:45%;
+    text-align: center;
+    width: 150px;
+    height:50px;
+    padding: 10px;
+    filter: drop-shadow( 10px  5px 0.2rem rgba(236,217,203,0.7));
+}
+.title1
+{
+    position: relative;
+    left:43%;
+    text-align: center;
+    width: 150px;
+    height:50px;
+    padding: 10px;
+}
+#breakfast,
+#lunch,
+#dinner,
+#salads,
+#drinks,
+#desserts,
+#snacks
+{
+    height:1200px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 50px;
+    margin-left:7%;
+    filter:saturate(1.5);
+
+}
+.BreakfastMeals,
+.LunchMeals,
+.DinnerMeals,
+.Salad,
+.Drink,
+.dessert,
+.Snacks
+{
+    width: 420px;
+    height:530px;
+    background-color:wheat;
+    border: 2px rgba(38, 37, 27, 0.49) solid;
+}
+.BreakfastMeals img,
+.LunchMeals img,
+.DinnerMeals img,
+.Salad img,
+.Drink img,
+.dessert img,
+.Snacks img
+{
+   padding: 10px;
+    filter:brightness(0.9);
+}
+.BreakfastMeals h2,
+.LunchMeals h2,
+.DinnerMeals h2,
+.Salad h2,
+.dessert h2,
+.Drink h2,
+.Snacks h2
+{
+    padding-left:20px;
+
+}
+.time
+{
+    width: 120px;
+    display: inline-block;
+    position: relative;
+    top:-10px;
+}
+.description
+{
+    border-top:1px black solid;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    position:relative;
+    top:-20px;
+    text-align: center;
+}
+.BreakfastMeals button,
+.LunchMeals button,
+.DinnerMeals button,
+.Salad button,
+.dessert button,
+.Snacks button,
+.Drink button
+{
+    position: relative;
+    left:32%;
+    top:-10px;
+    width: 150px;
+    height:30px;
+    cursor:pointer;
+    box-shadow: 3px 3px;
+    border-radius: 20px;
+}
+.BreakfastMeals button:hover,
+.LunchMeals button:hover,
+.DinnerMeals button:hover,
+.Salad button:hover,
+.dessert button:hover,
+.Snacks button:hover,
+.Drink button:hover
+{
+    transform: scale(1.03);
+    opacity: 0.9;
+    --group-one-background-color: rgba(92, 114, 62, 0);
+    background: var(--group-one-background-color);
+    transition:text-shadow .9s linear;
+}
+.BreakfastMeals button a,
+.LunchMeals button a,
+.DinnerMeals button a,
+.Salad button a,
+.dessert button a,
+.Snacks button a,
+.Drink button a
+{
+    text-decoration: none;
+    color:black;
+}
+#main
+{
+    margin-top:50px;
+    width: 100%;
+    height:80%;
+    font-size:17px;
+    margin-left: 20px;
+}
+#main ul>li
+{
+    padding: 10px;
+}
+#main p
+{
+    text-align: justify;
+    width: 95%;
+
+}
+/*
+@media (max-width: 1700px)
+{
+    body
+    {
+        font-family:'Roboto Light';
+        color:dimgrey;
+    }
+    nav
+    {
+        background-color:lightslategrey ;
+    }
+    footer
+    {
+        background-color:lightslategrey;
+    }
+}*/
